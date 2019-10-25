@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import {Switch, Route, Redirect} from "react-router-dom";
+import Login from './component/Login';
+import Register from './component/Register';
+import Home from './component/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      token: localStorage.getItem('token')
+    }
+  }
+
+  render() {
+    return (
+      <div>
+        <Switch>
+          <Route path='/login'>
+            {(this.state.token != null && this.state.token !== "undefined")?<Redirect to='/'/>:<Login/>}
+          </Route>
+          <Route path='/register'>
+            {(this.state.token != null && this.state.token !== "undefined")?<Redirect to='/'/>:<Register/>}
+          </Route>
+          <Route path='/'>
+            {(this.state.token == null || this.state.token === "undefined")?<Redirect to='/login'/>:<Home/>}
+          </Route>
+        </Switch>
+      </div>
+    );
+  }
 }
 
 export default App;
