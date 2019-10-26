@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67cab20a-b2cf-4bc9-8b93-fa98268a55fa" name="Default Changelist" comment="Initial released">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/AddCategory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/AddProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/Cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/Category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/Content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/DeleteProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/EditProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/MediumCart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/PointOfSales.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/SideListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/SingleCart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/home/SingleProduct.js" afterDir="false" />
+    <list default="true" id="67cab20a-b2cf-4bc9-8b93-fa98268a55fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/AddCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/AddCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/AddProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/AddProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/Category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/DeleteProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/DeleteProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/EditProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/EditProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/home/PointOfSales.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/home/PointOfSales.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +81,18 @@
       <option name="presentableId" value="Default" />
       <updated>1571869998430</updated>
       <workItem from="1571870000652" duration="84914000" />
-      <workItem from="1572008955141" duration="7849000" />
+      <workItem from="1572008955141" duration="8250000" />
+      <workItem from="1572038726370" duration="3934000" />
+      <workItem from="1572049520620" duration="1555000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix warning">
+      <created>1572034604911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572034604914</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial released" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial released" />
+    <MESSAGE value="Fix warning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix warning" />
   </component>
 </project>

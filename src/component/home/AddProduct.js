@@ -37,7 +37,7 @@ export default function AddProduct () {
       price: event.target.price.value,
       category_id: event.target.category.value
     };
-    axios.post('http://localhost:8080/product', data, {headers: {Authorization: token}})
+    axios.post('http://192.168.100.124:8080/product', data, {headers: {Authorization: token}})
       .then(response => {
         const status = response.data.status;
         if (status === 200) {

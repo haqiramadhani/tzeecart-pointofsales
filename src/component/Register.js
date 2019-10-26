@@ -60,12 +60,12 @@ class Register extends Component {
       username: event.target.username.value,
       password: event.target.password.value
     };
-    axios.post('http://localhost:8080/account/register', data)
+    axios.post('http://192.168.100.124:8080/account/register', data)
       .then(response => {
         const status = response.data.status;
         if (status === 200) {
-          this.setState({message: response.data.result.message, success: true});
-        } else this.setState({message: response.data.messages});
+          alert(response.data.result.message);
+        } else alert(response.data.messages);
       })
       .catch(() => this.setState({message: 'Error while post data to server'}));
   }

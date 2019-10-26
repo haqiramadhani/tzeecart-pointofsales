@@ -19,7 +19,7 @@ class Category extends Component {
 
   componentDidMount() {
     const token = localStorage.getItem('token');
-    axios.get('http://localhost:8080/category', {headers: {'Authorization': token}})
+    axios.get('http://192.168.100.124:8080/category', {headers: {'Authorization': token}})
       .then(response => this.setState({categories: response.data.result}))
       .catch(error => console.log(error));
   }

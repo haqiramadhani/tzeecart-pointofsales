@@ -32,7 +32,7 @@ export default function AddProduct () {
       name: event.target.name.value,
       image: event.target.image.value,
     };
-    axios.post('http://localhost:8080/category', data, {headers: {Authorization: token}})
+    axios.post('http://192.168.100.124:8080/category', data, {headers: {Authorization: token}})
       .then()
       .catch(error => console.log(error));
   };

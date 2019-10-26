@@ -59,7 +59,7 @@ class Login extends Component {
       username: event.target.username.value,
       password: event.target.password.value
     };
-    axios.post('http://localhost:8080/account/login', data)
+    axios.post('http://192.168.100.124:8080/account/login', data)
       .then(response => {
         const status = response.data.status;
         if (status === 200) {

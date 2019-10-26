@@ -44,7 +44,7 @@ class PointOfSales extends Component {
   componentDidMount() {
     const token = localStorage.getItem('token');
     if (this.state.isProduct) {
-      axios.get('http://localhost:8080/product', {headers: {'Authorization': token}})
+      axios.get('http://192.168.100.124:8080/product', {headers: {'Authorization': token}})
         .then(response => this.setState({products: response.data.result.results}))
         .catch(error => console.log(error));
     } else {}

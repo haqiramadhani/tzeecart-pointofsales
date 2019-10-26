@@ -22,7 +22,7 @@ class Cart extends Component {
         product_id: item.id,
         qty: item.qty
       };
-      axios.post('http://localhost:8080/transaction/reduce', data, {headers: {Authorization: token}})
+      axios.post('http://192.168.100.124:8080/transaction/reduce', data, {headers: {Authorization: token}})
         .then(response => console.log(response))
         .catch(error => console.log(error));
     });

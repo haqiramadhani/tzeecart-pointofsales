@@ -23,7 +23,7 @@ export default function AddProduct (props) {
   const handleSubmit = (event) => {
     event.preventDefault();
     const token = localStorage.getItem('token');
-    axios.delete('http://localhost:8080/product/'+props.id, {headers: {Authorization: token}})
+    axios.delete('http://192.168.100.124:8080/product/'+props.id, {headers: {Authorization: token}})
       .then(response => {
         const status = response.data.status;
         if (status === 200) {
